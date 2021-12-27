@@ -1,23 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
-/* check if the font is correct */
+
 body {
+    margin: 0;
+    padding: 0;
     font-family: Roboto, sans-serif;
     font-weight: 100;
 }
 
-/* not working fix header */
-header {
-    background-color: black;
+/* fix the Stockholm Yoga Club inside the header */
+
+nav h1 {
+    display: inline-block;
     color: blanchedalmond;
+    font-size: 2em;
+    margin-right: 38%;
+    
+
+
 }
 
-/* not working fix footer */
+nav ul {
+    list-style: none;
+    background-color: black;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.4em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2%;
+}
+
+/* footer needs to go all the way down */
+
 footer {
     background-color: black;
-    bottom: 0;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 40px;
+    height: 40px;
+    
 }
-/* not working fix form blocks */
 .block-label {
     display: block;
 }
