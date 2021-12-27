@@ -8,15 +8,20 @@ body {
     font-weight: 100;
 }
 
-/* fix the Stockholm Yoga Club inside the header */
+
+/* header not responsive fix it */
 
 nav h1 {
-    display: inline-block;
+
     color: blanchedalmond;
     font-size: 2em;
-    margin-right: 38%;
+    margin: 0;
+    padding: 2%;  
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 40px;
+    height: 40px;
     
-
 
 }
 
@@ -35,8 +40,13 @@ nav li {
     display: inline-block;
     margin: 2%;
 }
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    display: block;
+}
 
-/* footer needs to go all the way down */
+/* footer needs to go all the way down and be responsive design */
 
 footer {
     background-color: black;
