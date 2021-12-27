@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
+/* check if the font is correct */
 body {
     font-family: Roboto, sans-serif;
     font-weight: 100;
+}
+
+/* not working fix header */
+header {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+/* not working fix footer */
+footer {
+    background-color: black;
+    bottom: 0;
+}
+/* not working fix form blocks */
+.block-label {
+    display: block;
 }
