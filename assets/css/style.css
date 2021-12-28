@@ -18,11 +18,9 @@ nav h1 {
     margin: 0;
     padding: 2%;  
     text-align: left;
-    font-size: 1.4em;
     line-height: 40px;
     height: 40px;
     
-
 }
 
 nav ul {
@@ -46,7 +44,11 @@ nav a {
     display: block;
 }
 
-/* footer needs to go all the way down and be responsive design */
+nav a:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+/* footer needs to go all the way down and be made responsive design */
 
 footer {
     background-color: black;
