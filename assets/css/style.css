@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
     font-weight: 100;
+    background-color: blanchedalmond;
 }
 
+/* This code for nav bar is from CI "How to get my brilliant ideas into the machine" */
 
 /* header not responsive fix it */
+
+nav {
+    position: fixed;
+    width: 100%;
+}
 
 nav h1 {
 
@@ -44,22 +53,55 @@ nav a {
     display: block;
 }
 
-nav a:hover {
+nav li a:hover {
     background-color: blanchedalmond;
     color: black;
 }
+/* Problems with image size!!! */
+
+/* "hero-image" here. Code from love running */
+
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image-the-one.jpg') no-repeat center center;
+}
+
+
+
+
+fieldset {
+    width: 150px;
+    height: 150px;
+}
+
 /* footer needs to go all the way down and be made responsive design */
+/* Code from Love running project */
+
+.block-label {
+    display: block;
+}
+
+/* google maps */
+
+iframe {
+    width: 25%;
+    height: 300px;
+}
+
+/* footer with social media links */
 
 footer {
     background-color: black;
-    color: blanchedalmond;
-    text-align: center;
+    bottom: 0;
     padding: 0;
     margin: 0;
-    line-height: 40px;
-    height: 40px;
-    
 }
-.block-label {
-    display: block;
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin: 2%;
+
 }
