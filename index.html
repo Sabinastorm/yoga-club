@@ -1,101 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Yoga club for everyone who loves yoga in Stockholm, Sweden">
-    <meta name="keywords" content="yoga, yoga club, stockholm, sweden"
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="keywords" content="yoga, yoga club, stockholm, sweden">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Stockholm Yoga Club</title>
 </head>
-
 <script src="https://use.fontawesome.com/f86bbdeeb8.js"></script>
-
 <body>
+<div class="container">
     <!-- The Header with Navigation bar -->
     <header>
-        
-     <!-- Navigation bar with clicable links -->       
-        <nav>
-            
-            <ul>
-                <a id="index.html">
-                    <h1>Stockholm Yoga Club</h1></a>
-                    
-                <li><a href="#index.html" aria-label="Jump to the Home section">Home</a></li>
-
-                <li><a href="#about us" aria-label="Jump to the About us section">About us</a></li>
-
-                <li><a href="#classes" aria-label="Jump to the Our classes section">Our classes</a></li>
-
-                <li><a href="#sign up" aria-label="Jump to the Join us section">Join us</a></li>
-            </ul>
+        <!-- Navigation bar with clickable links -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="text-light">Stockholm Yoga Club</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#classes">Our Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#joinus">Join Us</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-
     <!-- Foto av Eternal Happiness från Pexels -->
-    
-    <div id="hero-image"></div>
-        
-    <div id="about us"> About us </div>
-    
-    <div id="classes"> Our classes </div> 
-
+    <div id="container">
+        <img class="img-fluid" src="assets/images/hero-image-the-one.jpg" alt="Photograph of woman doing yoga in the sunset"/>
+    </div>
+    <div id="about">
+        <h2>About us</h2>
+        <div class="row">
+            <p>You're telling the enemy exactly what you're going to do. No wonder you've been fighting Lorem Ipsum your
+                entire adult life. That other text? Sadly, it’s no longer a 10. He’s not a word hero. He’s a word hero
+                because he was captured. I like text that wasn’t captured. If Trump Ipsum weren’t my own words, perhaps
+                I’d be dating it. I know words. I have the best words.</p>
+            <p>He’s not a word hero. He’s a word hero because he was captured. I like text that wasn’t
+                captured. Lorem Ispum is a choke artist. It chokes!</p>
+            <p>Be careful, or I will spill the beans on your placeholder text. Trump Ipsum is calling for a total
+                and complete shutdown of Muslim text entering your website.</p>
+        </div>
+    </div>
+    <div id="classes">
+        <h2>Our classes</h2>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card" >
+                    <img src="assets/images/hero-image-the-one.jpg" class="card-img-top" alt="here">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card" >
+                    <img src="assets/images/hero-image1.jpg" class="card-img-top" alt="here">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card" >
+                    <img src="assets/images/hero-image.jpg" class="card-img-top" alt="here">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Sign Up Form -->
-
     <div id="sign up">
         <form method="post">
-            <fieldset><legend>Join us</legend>
-        <div>
-            <label class="block-label" for="name">Name</label>
-            <input id="name" type="text" required>
-        </div>
-        <div>
-            <label class="block-label" for="email">Email</label>
-            <input id="email" type="email" required>
-        </div>
-        <div>
-            <input type="submit" value="Join Yoga Club">
-        </fieldset>
-        </div>
+            <fieldset>
+                <legend>Join us</legend>
+                <div>
+                    <label class="block-label" for="name">Name</label>
+                    <input id="name" type="text" required>
+                </div>
+                <div>
+                    <label class="block-label" for="email">Email</label>
+                    <input id="email" type="email" required>
+                </div>
+                <div>
+                    <input type="submit" value="Join Yoga Club">
+                </div>
+            </fieldset>
         </form>
     </div>
-
     <!-- Adress and map here -->
-
-    <section> 
+    <section>
         <div>How to find us
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.155770599502!2d18.074026315988604!3d59.31365581932135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77fa75237383%3A0x9bae4126b255e56b!2sKocksgatan%2014%2C%20116%2024%20Stockholm!5e0!3m2!1ssv!2sse!4v1640556563258!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-        title="Find our yoga studio on google maps"</iframe>
-       </div>
-    </section>  
-      
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2036.155770599502!2d18.074026315988604!3d59.31365581932135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77fa75237383%3A0x9bae4126b255e56b!2sKocksgatan%2014%2C%20116%2024%20Stockholm!5e0!3m2!1ssv!2sse!4v1640556563258!5m2!1ssv!2sse"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                title="Find our yoga studio on google maps"
+            </iframe>
+        </div>
+    </section>
     <!-- Footer with clickable social media icons here -->
-
     <footer>
         <ul>
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" 
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                   aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa fa-facebook-official"
+                                                                                aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" 
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                   aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa fa-twitter-square"
+                                                                               aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" 
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                   aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa fa-instagram"
+                                                                                 aria-hidden="true"></i></a>
             </li>
         </ul>
     </footer>
+</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
