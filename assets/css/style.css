@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     background-color: blanchedalmond;
 }
 
@@ -14,10 +14,10 @@ p {
     font-size: 1.6rem;
 }
 
-/* This code for nav bar is from CI "How to get my brilliant ideas into the machine" */
-/* header not responsive fix it */
+/* Make header fixed position */
 
 nav {
+
     position: fixed;
     width: 100%;
 }
@@ -39,8 +39,12 @@ div p {
     display: inline-block;
 }
 
-#signup 
+#joinus {
+    padding: 8rem;
+    margin: auto;
+    width: 50%;
 
+}
 
 #hero-image {
     width: 100%;
