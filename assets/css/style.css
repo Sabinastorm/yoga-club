@@ -51,14 +51,14 @@ div p {
 }
 
 #findus {
-    width: 25%;
-    height: 300px;
+    float: right;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 /* footer with social media links */
 
 footer {
-    background-color: black;
     bottom: 0;
     padding: 0;
     margin: 0;
@@ -67,5 +67,5 @@ footer {
 footer li {
     list-style: none;
     display: inline-block;
-    margin: 2%;
+    margin: 0;
 }
