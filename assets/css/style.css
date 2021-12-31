@@ -40,16 +40,26 @@ div p {
 
 tr, th, td {
     text-align: center;
+    font-size: 1.6rem;
 }
 
 th {
     font-size: 2rem;
 }
 
+label {
+    font-size: 1.6rem;
+}
+
 #joinus {
     padding: 4rem;
     margin: auto;
     width: 50%;
+    font-size: 2rem;
+}
+
+#textcenter {
+    text-align: center;
 }
 
 #hero-image {
