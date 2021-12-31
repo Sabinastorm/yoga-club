@@ -5,3 +5,5 @@ For my Milestone Project 1 on Code Institute's Diploma in Software Developement 
 For link to the website click Here
 
 Design has been focused to Responsive.
+
+## Who is this website for?
