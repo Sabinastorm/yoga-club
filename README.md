@@ -136,6 +136,14 @@ created in HTML5, CSS3 and Bootstrap
 
 ### Browser testing
 
+Website has been tested in Google chrome and Safari
+
+Website has been testen on Apple Iphone
+
+Both test confirmed that the website works great
+
+All the functions and responsiveness works
+
 ### Validators
 
 The website has been through W3C Jigsaw validation with 5 errors.
@@ -152,6 +160,8 @@ The errors are in bootstrap and I have no control over it.
 Website has been through W3C HTML Validator and there is one error to report
 
 - Error: script element between head and body
+
+Tried removing it and lost my social media links. So leaving it in for now.
 
 
 ### Local testing
