@@ -6,4 +6,6 @@ For link to the website click [Here](https://sabinastorm.github.io/yoga-club)
 
 Design has been focused to Responsive.
 
+![Image of responsive design](https://github.com/Sabinastorm/yoga-club/assets/img/responsive.png)
+
 ## Who is this website for?
