@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 * {
     font-size: 10px;
 }
@@ -6,13 +6,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-    font-weight: 800;
+    font-weight: 300;
     background-color: blanchedalmond;
 }
 p {
     font-size: 1.6rem;
 }
-/* Make header fixed position */
 nav {
     width: 100%;
 }
@@ -51,7 +50,6 @@ label {
 #hero-image {
     width: 100%;
 }
-/* footer with social media links */
 #footer {
     background-color: rgb(47, 64, 79);
     padding: 2em;
@@ -66,7 +64,6 @@ label {
     margin: 3rem;
     font-size: 3rem;
 } 
-
 .fa {
     color: blanchedalmond;
 }
