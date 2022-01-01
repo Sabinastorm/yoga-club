@@ -99,5 +99,26 @@ Sans-serif
 Fonts are obtained from Google Fonts.
 
 ## Features
-Exsisting Features
+### Exsisting Features
 created in HTML5, CSS3 and Bootstrap
+- navigation bar
+- table of classes
+- social media links
+- sign up form
+
+### Feature for future implementation
+- gallery page
+- form for message
+- Google map to show exact position of the studio 
+- fixed header
+
+## Technologies used
+
+- HTML5 for markup
+- CSS3 for style
+- Google Fonts for fonts
+- Bootstrap for main frame of the website
+- Font Awesome for icons
+- Git for version control
+- GitHub for keeping the files, documents and deployment of the website
+
