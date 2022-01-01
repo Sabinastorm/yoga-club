@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
-
 * {
     font-size: 10px;
 }
@@ -10,80 +9,64 @@ body {
     font-weight: 800;
     background-color: blanchedalmond;
 }
-
 p {
     font-size: 1.6rem;
 }
-
 /* Make header fixed position */
-
 nav {
     width: 100%;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     font-size: 2rem;
 }
-
 #about {
     padding: 1.5rem;
 }
-
 div p {
     text-align: center;
 }
-
 #classes {
     width: 100%;
     display: inline-block;
 }
-
 tr, th, td {
     text-align: center;
     font-size: 1.6rem;
 }
-
 th {
     font-size: 2rem;
 }
-
 label {
     font-size: 1.6rem;
 }
-
 #joinus {
     padding: 4rem;
     margin: auto;
     width: 50%;
     font-size: 2rem;
 }
-
 #textcenter {
     text-align: center;
 }
-
 #hero-image {
     width: 100%;
 }
-
-#findus {
-    float: right;
-    margin: 2rem;
-    padding: 2rem;
-}
-
 /* footer with social media links */
-
 #footer {
-    bottom: 0px;
     background-color: rgb(47, 64, 79);
-    bottom: 0;
     padding: 2em;
     width: 100%;
+    min-height: 3rem;
+    color: whitesmoke;
+    text-align: center;
 }
-
-footer li {
+#footer ul li {
     list-style: none;
     display: inline-block;
-    margin: 0;
+    margin: 3rem;
+    font-size: 3rem;
+} 
+
+.fa {
+    color: blanchedalmond;
 }
