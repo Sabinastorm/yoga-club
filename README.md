@@ -132,5 +132,61 @@ created in HTML5, CSS3 and Bootstrap
 - [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
 - [5pence](https://5pence.net/) for markdown
 
+## Testing
+
+### Browser testing
+
+### Validators
+
+The website has been through W3C Jigsaw validation with 5 errors.
+
+- var(--fa-animation-delay, 0) är inte ett animation-delay-värde : var(--fa-animation-delay, 0)
+
+- var(--fa-animation-delay, 0) är inte ett animation-delay-värde - var(--fa-animation-delay, 0)
+- var(--fa-animation-delay, 0) är inte ett animation-delay-värde - var(--fa-animation-delay, 0)
+- var(--fa-animation-delay, 0) är inte ett animation-delay-värde - var(--fa-animation-delay, 0)
+- var(--fa-rotate-angle, none) är inte ett transform-värde : rotate(var(--fa-rotate-angle, none))
+
+The errors are in bootstrap and I have no control over it.
+
+Website has been through W3C HTML Validator and there is one error to report
+
+- Error: script element between head and body
+
+
+### Local testing
+
+Testing of all the buttons, links and function of the form of the website has been carried out. There was few links which needed to be fixed and that was done. When pressing the Home link it didn't work. The anchor element was missing. It is now fixed.
+
+While testing the form I discovered that all the fields are not being correctly required. That has been fixed by renameing the for value in label.
+
+### Responsiveness
+
+I used Google Chrome Dev Tools to check the responsiveness of website. No errors found.
+
+## Version control
+
+### Git and Github
+
+I used GitPod as a local repository and GitHub as a remote repository. The process of version control was:
+
+- First i created a new repository in GitHub
+- Then opened that repository in GitPod and started coding
+- In GitPod i created my files and folders
+- I then saved my work and pushed it to GitHub repository to keep it safe
+
+Saving, commiting and pushing it to remote repository in terminal:
+- git add . 
+- git commit -m "Commit message" 
+- git push to update work to GitHub
+
+## Deployment
+
+To deploy the website, I followed the below steps on [GitHub](https://github.com/).
+
+- Go to "Settings" on the repository
+- On "Source" of "GitHub Pages", select "master for Branch and click save
+- Refresh page
+- The website is now published on GitHub Pages and the link is provided on on the same section
 
 
