@@ -32,7 +32,15 @@ The website connects people who are looking for a yoga studio with Stockholm yog
 - As a user I want to learn more about the company
 - As a user I want to easily find the location of the company
 - As a user I want to know how to contact the company
+- As a user I want it to be simple to sign up to classes
 
 #### Customers perspective fulfilment
 
 - Navigation, Foooter and the pages content are layed out in a clear and logical way to guide user to the desired location
+- Navigation bar has a direct link to Our classes
+- The website has a section with information about the company 
+- Footer has address 
+- The footer has a contact us and social media links 
+- The join us section makes it easy for customers to sign up for classes
+
+## 
