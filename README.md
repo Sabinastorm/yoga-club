@@ -122,3 +122,15 @@ created in HTML5, CSS3 and Bootstrap
 - [Git](https://gitpod.io/) for version control
 - [GitHub](https://github.com/) for keeping the files, documents and deployment of the website
 
+## Resources
+
+- [Pexels](https://www.pexels.com/) for images with free license
+- [Code Institute](https://learn.codeinstitute.net/) course materials
+- [Code Institute](https://learn.codeinstitute.net/) Slack Community
+- [Stackoverflow](https://stackoverflow.com/)
+- [W3schools](https://www.w3schools.com/)
+- [Am I Responsive](http://ami.responsivedesign.is/) for a responisve image in Read Me
+- [5pence](https://5pence.net/) for markdown
+
+
+
