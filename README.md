@@ -114,11 +114,11 @@ created in HTML5, CSS3 and Bootstrap
 
 ## Technologies used
 
-- HTML5 for markup
-- CSS3 for style
-- Google Fonts for fonts
-- Bootstrap for main frame of the website
-- Font Awesome for icons
-- Git for version control
-- GitHub for keeping the files, documents and deployment of the website
+- [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+- [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+- [Google Fonts](https://fonts.google.com/) for fonts
+- [Bootstrap](https://getbootstrap.com/) for main frame, tables and form of the website
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Git](https://gitpod.io/) for version control
+- [GitHub](https://github.com/) for keeping the files, documents and deployment of the website
 
